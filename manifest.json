@@ -1,0 +1,28 @@
+{
+  "name": "SignSense – Sign Language Translator",
+  "short_name": "SignSense",
+  "description": "Real-time ASL sign language to text translation using AI-powered hand tracking",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#7c3aed",
+  "orientation": "any",
+  "categories": ["accessibility", "education", "utilities"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='80' fill='%237c3aed'/><text y='380' font-size='320' text-anchor='middle' x='256'>✋</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Start Translating",
+      "short_name": "Start",
+      "description": "Open SignSense and start the camera",
+      "url": "/?action=start"
+    }
+  ]
+}
