@@ -178,6 +178,51 @@ Sign_Language_Translator/
 
 ---
 
+## 🔭 Future Scope
+
+SignSense is just getting started. Here's the roadmap of what's planned next:
+
+### 🤖 AI & Recognition
+| Feature | Description |
+|---|---|
+| **ML-Based Classifier** | Replace the rule-based heuristics with a TensorFlow.js model trained on thousands of real ASL samples for dramatically higher accuracy |
+| **Dynamic Gesture Support** | Recognize motion-based signs (J, Z, and full-word gestures) using LSTM temporal modeling |
+| **Two-Hand Signs** | Support signs that require both hands simultaneously (currently only single-hand is detected) |
+| **Continuous Sign Language** | Move from isolated letter/word detection to full continuous sentence recognition |
+
+### 🌍 Language & Accessibility
+| Feature | Description |
+|---|---|
+| **Multi-Sign-Language Support** | Add BSL (British), ISL (Indian), LSE (Spanish), and Auslan (Australian) sign dictionaries |
+| **Reverse Translation** | Type or speak English — the app displays the correct ASL sign animation in response |
+| **Multi-Language Output** | Translate recognized ASL directly into Spanish, Hindi, French, and more |
+| **Screen Reader Integration** | Full ARIA support so deaf-blind users can navigate the app via assistive technologies |
+
+### 📱 Platform & Deployment
+| Feature | Description |
+|---|---|
+| **Native Mobile App** | Package as a React Native / Capacitor app for Android and iOS |
+| **Offline ML Models** | Bundle MediaPipe models locally for true offline-first recognition |
+| **Browser Extension** | SignSense as a Chrome extension — translate signs directly inside video calls (Google Meet, Zoom) |
+| **Real-Time Video Call Integration** | WebRTC overlay that adds live captions to video calls using sign language input |
+
+### 🎓 Learning & Gamification
+| Feature | Description |
+|---|---|
+| **Structured Learning Paths** | Curriculum from beginner (A–Z) to advanced (full conversations) with unlockable levels |
+| **Persistent Progress** | Cloud-synced XP, streaks, leaderboards, and achievement badges |
+| **Flashcard Mode** | Spaced repetition system (SRS) for memorizing signs efficiently |
+| **AI Sign Coach** | Real-time feedback on hand posture: *"Curl your index finger more"* |
+
+### 🛠️ Developer Experience
+| Feature | Description |
+|---|---|
+| **REST API / SDK** | Expose SignSense as an embeddable JavaScript SDK for third-party developers |
+| **Sign Dictionary Builder** | Visual GUI to record and add new custom signs to the classifier |
+| **Unit Test Suite** | Automated tests for the classifier using pre-recorded landmark datasets |
+
+---
+
 ## 🤝 Contributing
 
 Contributions are warmly welcome! Here are some great ideas to work on:
